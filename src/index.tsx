@@ -6,7 +6,9 @@ import './index.css';
 // import Name from './ components/Name'
 // import Message from './ components/Message'
 // import ContextSample from './ components/ContextSample'
-import Counter from './ components/Counter'
+// import Counter from './ components/Counter'
+// import CounterReducer from './ components/CounterReducer'
+import { Parent } from './ components/Parent'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
@@ -15,7 +17,8 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    <Counter initialValue={1} />
+    {/* <CounterReducer initialValue={1} /> */}
+    <Parent />
   </React.StrictMode>
 );
 
