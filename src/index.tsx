@@ -2,13 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 // import App from './App';
-// import Hello from './ components/Hello'
-// import Name from './ components/Name'
-// import Message from './ components/Message'
-// import ContextSample from './ components/ContextSample'
-// import Counter from './ components/Counter'
-// import CounterReducer from './ components/CounterReducer'
-import { Parent } from './ components/Parent'
+// import Hello from './components/Hello'
+// import Name from './components/Name'
+// import Message from './components/Message'
+// import ContextSample from './components/ContextSample'
+// import Counter from './components/Counter'
+// import CounterReducer from './components/CounterReducer'
+// import { Parent } from './components/Parent'
+// import { Parent } from './components/UseCallbackSample'
+// import { UseMemoSample } from './components/UseMemoSample'
+import { Clock } from './components/Clock'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
@@ -18,7 +21,8 @@ root.render(
   <React.StrictMode>
     {/* <App /> */}
     {/* <CounterReducer initialValue={1} /> */}
-    <Parent />
+    {/* <Parent /> */}
+    <Clock></Clock>
   </React.StrictMode>
 );
 
