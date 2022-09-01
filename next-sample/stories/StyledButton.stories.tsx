@@ -5,7 +5,7 @@ import { action } from '@storybook/addon-actions'
 // TODO: docsが表示されないので調査が必要
 import MDXDocument from './StyledButton.mdx'
 
- const incrementAction = action('increment')
+const incrementAction = action('increment')
 
 // ファイル内のStory設定
 export default {
